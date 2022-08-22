@@ -21,7 +21,7 @@ function mayoriaDeEdad(edad) {
   if (edad >= 18) {
     return 'Allowed';
   } else {
-    return 'Not Allowed';
+    return 'Not allowed';
   }
 }
   
@@ -144,7 +144,7 @@ function operadoresLogicos(num1, num2, num3) {
   } else if (num1 < 0 || num2 < 0 || num3 < 0) {
     return 'Hay negativos';
   } else if (num3 > num1 && num3 > num2) {
-    return (num3 + 1);
+    return (num3++);
   } else if (num1 === 0 || num2 === 0 || num3 === 0) {
     return 'Error';
   } else {
@@ -158,7 +158,6 @@ function esPrimo(numero) {
   // Pista: un número primo solo es divisible por sí mismo y por 1
   // Pista 2: Puedes resolverlo usando un bucle `for`
   // Nota: Los números 0 y 1 NO son considerados números primos
-  for (let x = 1; ) 
 }
 
 function esVerdadero(valor){
@@ -176,8 +175,8 @@ function tablaDelSeis(){
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí   
-  for (var x = 1; x <= 10; x++) {
-    return (x * 6)
+  for (var x = 0; x <= 10; x++) {
+    console.log(x * 6)
   } 
 }
 
